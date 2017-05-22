@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f9f9f5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/ViewUserProfile_TitletextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="User Full Name"
+                    android:textColor="#344997"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+
+                <ImageView
+                    android:id="@+id/ViewUserProfile_ProfilePixImageView"
+                    android:layout_width="140dp"
+                    android:layout_height="127dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/empty_profile_image"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/ViewUserProfile_FullNameTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/full_name"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="#070707"
+                        android:layout_marginStart="10dp"/>
+
+                    <TextView
+                        android:id="@+id/ViewUserProfile_FullName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Kennedy Agusi"
+                        android:textSize="20sp"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/ViewProfile_DateOfBirthTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date_of_birth"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="#070707"
+                        android:layout_marginStart="10dp"/>
+
+                    <TextView
+                        android:id="@+id/ViewUserProfile_DateOfBirthEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="04/10/1995"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/ViewUserProfile_HomeTownTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home_town"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="#070707"
+                        android:layout_marginStart="10dp"/>
+
+                    <TextView
+                        android:id="@+id/ViewUserProfile_HomeTownEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Washington"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ViewUserProfile_BioTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biography"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#070707"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/ViewUserProfile_BioEditText"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:lines="6"
+                    android:background="@drawable/mycustom_boarder"
+                    android:layout_marginStart="10dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

@@ -1,0 +1,58 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="assignment02.csc214.project2.Feed.FeedFragment">
+
+    <LinearLayout android:focusable="true"
+                  android:focusableInTouchMode="true"
+                  android:layout_width="0px"
+                  android:layout_height="0px" >
+        <requestFocus />
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/post_linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/feed_fragment_profilePic"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/empty_profile_image"
+        android:layout_weight="0.91"/>
+
+    <TextView
+        android:id="@+id/feed_fragment_WriteSomethingEditText"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mycustom_boarder"
+        android:hint="Post Something"
+        android:layout_marginStart="5dp"
+        android:focusable="true"/>
+
+</LinearLayout>
+
+<View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="#8e8a8a"
+        android:layout_below="@+id/post_linearLayout"
+        android:layout_marginTop="5dp"/>
+
+<android.support.v7.widget.RecyclerView
+        android:id="@+id/FeedRecycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+</android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

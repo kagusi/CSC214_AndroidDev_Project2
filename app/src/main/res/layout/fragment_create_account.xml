@@ -1,0 +1,217 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="assignment02.csc214.project2.Account.CreateAccountFragment">
+
+    <LinearLayout android:focusable="true"
+                  android:focusableInTouchMode="true"
+                  android:layout_width="0px"
+                  android:layout_height="0px" >
+        <requestFocus />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="475dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/mycustom_boarder"
+            android:backgroundTint="#284499"
+            android:backgroundTintMode="src_over"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/create_account"
+                android:textColor="#f7f4f3"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/createAccount_usernameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username"
+                    android:textColor="#f7f4f3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/createAccount_usernameEditText"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="3.75"
+                    android:background="@drawable/edittext_shape"
+                    android:maxLines="1"
+                    android:hint="@string/enter_username"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/createAccount_passwordTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/password"
+                    android:textColor="#f7f4f3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/CreateAccount_passwordEditText"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/edittext_shape"
+                    android:hint="@string/enter_password"
+                    android:inputType="textPassword"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/createAccount_renterpasswordTextView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/comfirm"
+                        android:textColor="#f7f4f3"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/createAccount_renterpasswordTextView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create_Account_password"
+                        android:textColor="#f7f4f3"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/CreateAccount_renterpasswordEditText"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/edittext_shape"
+                    android:hint="@string/enter_password"
+                    android:inputType="textPassword"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/what_is_your_mother_s_maiden_name"
+                android:textColor="#e7b3b3"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/createAccount_securityQuestion2TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer"
+                    android:textColor="#f7f4f3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/createAccount_securityQuestionEditText"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/edittext_shape"
+                    android:hint="@string/enter_response"
+                    android:inputType="textPassword"
+                    android:layout_weight="3.20"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/createAccount_button"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonshapes"
+                android:text="@string/create_account_label"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/createAccount_cacel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/cancel"
+                android:textColor="#f7f4f3"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

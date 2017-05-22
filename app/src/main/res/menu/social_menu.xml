@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/feed_goup1">
+        <item
+            android:id="@+id/menu_feed"
+            android:title="@string/feed"
+            app:showAsAction="never"/>
+    </group>
+
+    <group android:id="@+id/feed_goup2">
+        <item
+            android:id="@+id/menu_users"
+            android:title="@string/list_of_users"
+            app:showAsAction="never"/>
+    </group>
+
+    <group android:id="@+id/feed_goup3">
+        <item
+            android:id="@+id/menu_update_profile"
+            android:title="@string/update_profile"
+            app:showAsAction="never"/>
+    </group>
+
+    <group android:id="@+id/feed_goup4">
+        <item
+            android:id="@+id/menu_logout"
+            android:title="@string/logout"
+            app:showAsAction="never"/>
+    </group>
+
+</menu>

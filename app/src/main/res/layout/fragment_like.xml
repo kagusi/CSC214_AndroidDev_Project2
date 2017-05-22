@@ -1,0 +1,10 @@
+<android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/LikeRecycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#aaffc6"
+            tools:context="assignment02.csc214.project2.Like.LikeFragment">
+
+</android.support.v7.widget.RecyclerView>

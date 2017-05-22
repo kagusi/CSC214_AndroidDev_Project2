@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="assignment02.csc214.project2.Feed.PostFragment">
+
+    <LinearLayout android:focusable="true"
+                  android:focusableInTouchMode="true"
+                  android:layout_width="0px"
+                  android:layout_height="0px" >
+        <requestFocus />
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mycustom_boarder">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f9f9f5">
+
+        <ImageView
+            android:id="@+id/Post_UserImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:src="@mipmap/empty_profile_image"/>
+
+        <EditText
+            android:id="@+id/Post_EnterPostEdiTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="6"
+            android:background="@drawable/mycustom_boarder"
+            android:hint="Write something"
+            android:layout_below="@+id/Post_UserImage"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/Post_PostImageView"
+            android:layout_width="340dp"
+            android:layout_height="230dp"
+            android:background="#8b8b7d"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@+id/Post_EnterPostEdiTextView"
+            android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/Post_PostImageView"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/Post_AddPicButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Add Picture"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshapes"/>
+
+            <Button
+                android:id="@+id/Post_PostButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Post"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshapes"
+                android:layout_marginStart="50dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</FrameLayout>

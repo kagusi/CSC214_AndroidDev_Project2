@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Umbrella Network</string>
+    <string name="app_titlename">Umbrella Network</string>
+    <string name="social_menu_title">List of Users</string>
+    <string name="feed">Feed</string>
+    <string name="list_of_users">List of Users</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="logout">Logout</string>
+    <string name="update_profile_menu_title">Update Profile</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to Create Account -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="umbrella_network">Umbrella Network</string>
+    <string name="username">Username:</string>
+    <string name="enter_username"> Enter username</string>
+    <string name="password">Password:</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="login_create_account"><u>Create Account</u></string>
+    <string name="create_account">Create Account</string>
+    <string name="comfirm">Comfirm</string>
+    <string name="create_Account_password">Password:</string>
+    <string name="what_is_your_mother_s_maiden_name">What is your mother\'s maiden name?</string>
+    <string name="answer">Answer:</string>
+    <string name="enter_response">Enter Response</string>
+    <string name="create_account_label">Create Account</string>
+    <string name="cancel"><u>Cancel</u></string>
+    <string name="update_profile_tile">Update Profile</string>
+    <string name="change_pic">Change Pic</string>
+    <string name="full_name">Full Name:</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="date_of_birth">Date of Birth:</string>
+    <string name="enter_mm_dd_yyy">Enter MM/DD/YYY</string>
+    <string name="home_town">Home Town:</string>
+    <string name="enter_home_town">Enter home town</string>
+    <string name="biography">Biography:</string>
+    <string name="update_profilebuttontext">Update Profile</string>
+    <string name="enter_a_short_biography">Enter a short biography</string>
+    <string name="Create_Profile_Title">Create Profile</string>
+    <string name="users_fullname"><u>FULL NAME</u></string>
+    <string name="enter_username2">PLEASE ENTER USERNAME</string>
+    <string name="enter_pas">PLEASE ENTER PASSWORD</string>
+    <string name="enterpass3">PLEASE ENTER COMFIRM PASSWORD</string>
+    <string name="entersec">PLEASE ENTER SECURITY QUESTION</string>
+    <string name="user_exist">USERNAME ALREADY EXIST</string>
+    <string name="accout_success">ACCOUNT SUCCESSFULLY CREATED</string>
+    <string name="pass_not_match">PASSWORDS DOES NOT MATCH</string>
+    <string name="e1">PLEASE ENTER USERNAME</string>
+    <string name="e2">PLEASE ANSWER SECURITY QUESTION</string>
+    <string name="chose1">PLEASE CHOOSE NEW PASSWORD</string>
+    <string name="choose2">PLEASE RE-ENTER NEW PASSWORD</string>
+    <string name="user_n">USERNAME NOT FOUND</string>
+    <string name="e4">PASSWORD CHANGED SUCCESSFULLY</string>
+    <string name="e5">SECURITY ANSWER NOT CORRECT</string>
+    <string name="e6">PASSWORD DOES NOT MATCH</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
